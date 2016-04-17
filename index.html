@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../static/leaflet plus d3 slider.css" media="screen" />
-	<script src="../static/d3.v3.min.js"></script>
-	<script src="../static/d3.slider.js"></script>
+	<script src="./static/d3.v3.min.js"></script>
+	<script src="./static/d3.slider.js"></script>
 </head>
 <body>
 	<div id="map" style="width: 600px; height: 700px; float:left"></div>
@@ -23,9 +23,9 @@
 	<div id="result_shareable"></div>
 	<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-	<script src="../static/HeatLayer.js"></script>
-	<script src="../static/leaflet-heat.js"></script>
-	<script src="../static/scripts/change_input.js"></script>
+	<script src="./static/HeatLayer.js"></script>
+	<script src="./static/leaflet-heat.js"></script>
+	<script src="./static/scripts/change_input.js"></script>
 	<script>
 		$.getJSON("https://raw.githubusercontent.com/Hanshan1988/SYD_DAT_3_Project/master/data/nyc_taxi_demand.json", function(json) {
 			columns = ['pickup_latitude2', 'pickup_longitude2', 'count', 'pickup_weekday', 'pickup_hour'];
