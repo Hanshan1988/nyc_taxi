@@ -1,2 +1,2 @@
-# nyc_taxi
-New York City Yellow Taxi Project
+# New York City Taxi Project
+To predict taxi fare prices and visualize taxi demand
